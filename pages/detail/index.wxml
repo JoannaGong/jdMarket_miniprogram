@@ -1,0 +1,11 @@
+<view class='detail'>
+  <view class='mod_slider'>
+    <swiper indicator-active-color='#e93b3d' indicator-dots='true' indicator-color='rgba(255,255,255,.6)' style='width:100%; height:820rpx'>
+      <block wx:for="{{partData.loopImgUrl}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src='{{item}}' ></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
